@@ -1,0 +1,51 @@
+body,
+h1,
+div,
+html {
+  margin: 0;
+  padding: 0;
+}
+#product-list {
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .product {
+  background-color: #444;
+  border-color: #555;
+}
+
+button {
+  margin-top: 10px;
+}
+body {
+  background-color: #ccc;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+p {
+  min-width: 33%;
+}
+.smallLine {
+  height: 1px;
+  width: 80px;
+  background-color: black;
+}
